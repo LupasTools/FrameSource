@@ -26,6 +26,7 @@ Sample:
 - WindowsForms USB Camera Live viewer sample with DirectX viewport based on SharpDX 
 - CPU loading is the same as Windows 10 "Camera" app
 - Camera configuration stored with Json
+- FullScreen mode toggle with double click on viewport
 
 Tests:
 - Some unit tests based on NUnit
