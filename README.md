@@ -1,6 +1,8 @@
 # FrameSource
+Implementing .NET USB camera frame grabbers
 
-Implementing .NET live camera frame grabbers with simple interface:
+# IFrameSource
+simple common interface:
 
 - Live() : Start live capture worker
 - Freeze() : Wait for the actual frame (on caller thread) and pause worker
@@ -8,7 +10,7 @@ Implementing .NET live camera frame grabbers with simple interface:
 - CopyFrame(destination) : Safe copy last frame to managed or unmanaged store
 
 # class MF_LiveFrameSource
-using Microsoft MediaFoundation (MFSourceReader) technology: 
+implementatation with Microsoft MediaFoundation (MFSourceReader) technology: 
 
 Features:
 - No software transforms
