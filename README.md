@@ -28,5 +28,7 @@ Sample:
 - Camera configuration stored with Json
 - FullScreen mode toggle with double click on viewport
 
+<img src="images/Lupas.Samples.FrameSource.jpg" width="50%">
+
 Tests:
 - Some unit tests based on NUnit
