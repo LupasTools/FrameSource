@@ -2,14 +2,10 @@
 
 Implementing .NET live camera frame grabbers with simple interface:
 
-//  Start live capture worker
-- Live()
-//  Wait for the actual frame (on caller thread) and pause worker
-- Freeze()                
-//  All the UI for live configuration
-- ShowProperties()        
-//  Safe copy last frame to managed or unmanaged store
-- CopyFrame(destination)  
+- Live() : Start live capture worker
+- Freeze() : Wait for the actual frame (on caller thread) and pause worker
+- ShowProperties() : All the UI for live configuration
+- CopyFrame(destination) : Safe copy last frame to managed or unmanaged store
 
 # class MF_LiveFrameSource
 using Microsoft MediaFoundation (MFSourceReader) technology: 
