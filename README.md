@@ -8,6 +8,8 @@ simple common interface:
 - Freeze() : Wait for the actual frame (on caller thread) and pause worker
 - ShowProperties() : All the UI for live configuration
 - CopyFrame(destination) : Safe copy last frame to managed or unmanaged store
+- event OnNewFrame : New frame notification
+- event OnWorkerException : Any worker exception, like camera lost
 
 # MF_LiveFrameSource
 implementatation with Microsoft MediaFoundation (MFSourceReader) technology: 
