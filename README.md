@@ -23,7 +23,7 @@ Features:
 - Fast and CPU effective
 
 Sample:
-- WindowsForms sample with DirectX viewport based on SharpDX 
+- WindowsForms USB Camera Live viewer sample with DirectX viewport based on SharpDX 
 - CPU loading is the same as Windows 10 "Camera" app
 - Camera configuration stored with Json
 
