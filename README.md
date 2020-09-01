@@ -16,7 +16,7 @@ implementation with Microsoft MediaFoundation (MFSourceReader) technology:
 
 Features:
 - No software transforms
-- Configure frame reader on the fly
+- Configure frame source reader on the fly
 - AM* (DirectShow) properties support
 - Full Serialization/Deserialization support
 - COM based on SharpDX technonogy
