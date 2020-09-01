@@ -9,13 +9,13 @@ simple common interface:
 - ShowProperties() : All the UI for live configuration
 - CopyFrame(destination) : Safe copy last frame to managed or unmanaged store
 
-# class MF_LiveFrameSource
+# MF_LiveFrameSource
 implementatation with Microsoft MediaFoundation (MFSourceReader) technology: 
 
 Features:
 - No software transforms
 - Configure frame reader on the fly
-- AM* properties support
+- AM* (DirectShow) properties support
 - Full Serialization/Deserialization support
 - COM based on SharpDX technonogy
 - Fast and CPU effective
